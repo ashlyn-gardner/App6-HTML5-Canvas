@@ -64,6 +64,14 @@ var a_canvas = document.getElementbyID("myCanvas"); // defines the variable "myC
 }
 </style>
 
+	<script> // section of code for drawing a rectangle
+	function draw_b() { // command draws a rectangle
+		var a_canvas = document.getElementById("myCanvas"); // command calls the canvas
+		var a_context = a_canvas.getContext("2d"); // command displays the rectangle in 2D
+		a_context.fillRect(10, 25, 150, 100); // specifies the coordinates, width, and height of the rectangle (x,y, width, height)
+		}
+	</script>		
+
 <body>
 <div id="header" class="w3-container w3-flat-carrot">
 	<h1>App6---HTML5-Canvas</h1>
